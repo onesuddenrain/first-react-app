@@ -1,0 +1,27 @@
+.header{
+    width: 1280px;
+    height: 64px;
+    /* background-color: gold; */
+
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-bottom: 20px; 
+    border-bottom: 1px solid;
+    border-color: rgba(212, 212, 216, 0.808);
+}
+
+.rightwing{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+
+.profimg{
+    width: 3.75rem;
+    /* padding-left: 100px; */
+}

@@ -1,0 +1,69 @@
+.Content{
+    width: 1280px;
+    height: auto;
+    /* background-color: gold; */
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+
+.card-container{
+    /* padding-top: 20px; */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ContentB{
+    width: 411px;
+    height: 2500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* background-color: green; */
+    padding-top: 19px;
+
+}
+#Rtime{
+    width: 411px;
+    height: 80px;
+    border-radius: 8px;
+
+    background-color: rgba(96, 71, 236, 0.1);
+
+    text-align: center;
+    color: rgba(96, 71, 236, 1);
+    
+}
+#Rblog{
+    width: 411px;
+    height: auto;
+    border-radius: 8px;
+
+    background-color: rgba(17, 17, 17, 0.05);
+
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    gap: 12px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.DispRes{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    gap: 12px;
+
+    overflow: hidden scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.DispRes::-webkit-scrollbar{
+    display: none;
+}

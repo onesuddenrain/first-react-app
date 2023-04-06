@@ -1,0 +1,15 @@
+.Rblock{
+    width: 351px;
+    height: 121px;
+    border-radius: 4px;
+
+    display: flex;
+    flex-direction: row;
+
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* .H3{
+    
+} */
